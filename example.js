@@ -1,51 +1,41 @@
 
 const students = [
     {
-        firstName: "eh",
-        lastName: "eh",
+        firstName: 'eh',
+        lastName: 'eh',
         graduated: true,
-        DOB:"eh",
-        sibings:["eh","bleh"],
+        DOB:2000,
+        sibings:['eh','bleh'],
         age: function(){
             return year = this.DOB;
-        },
+        }
     },
     {
-        firstName: "eh",
-        lastName: "eh",
-        graduated: false,
-        DOB:"535",
-        sibings:["eh", "someone"],
-        age: function(){
-            return year = this.DOB;
-        },
-    },
-        {
-        firstName: "eh",
-        lastName: "eh",
+        firstName: 'eh',
+        lastName: 'eh',
         graduated: true,
-        DOB:"535",
-        sibings:["eh", "someone"],
+        DOB:2000,
+        sibings:['eh','bleh'],
         age: function(){
             return year = this.DOB;
-        },
+        }
     },
-        {
-        firstName: "eh",
-        lastName: "eh",
+    {
+        firstName: 'eh',
+        lastName: 'eh',
         graduated: true,
-        DOB:"535",
-        sibings:["eh", "someone"],
+        DOB:2000,
+        sibings:['eh','bleh'],
         age: function(){
             return year = this.DOB;
-        },
+        }
     },
-        {
-        firstName: "eh",
-        lastName: "eh",
-        graduated: false,
-        DOB:"535",
-        sibings:["eh", "someone"],
+    {
+        firstName: 'eh',
+        lastName: 'eh',
+        graduated: true,
+        DOB:2000,
+        sibings:['eh','bleh'],
         age: function(){
             return year = this.DOB;
         }
