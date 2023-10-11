@@ -4,27 +4,27 @@ const iphone = [
     {
         name: 'iPhone 15',
         release_date:'September 24, 2021',
-        Variants:['Pro','Pro Max'],
-        age: function(){
-            return year = this.release_date;
-        }
+        variants:'Pro, Pro Max, Plus',
+        feature:['Titanium Frame (Pro/ProMax) Exclusive', 'A16 & A17 Pro Bionic Chip', 'USB-C'],
     },
     {
         name: 'iPhone 14',
         release_date:'September 16, 2022',
-        sibings:['eh','bleh'],
-        age: function(){
-            return year = this.release_date;
+        variants:'Pro, Pro Max, Plus',
+        feature: ['A15 & A16 Bionic Chip', 'Dynamic Island', 'Optical Zoom Additions'],
+        type: function(){
+            return feature = iphone(feature);
         }
     },
     {
         name: 'iPhone 13',
         release_date:'September 22, 2023',
-        sibings:['','bleh'],
-        age: function(){
-            return year = this.release_date;
-        }
+        variants:'Mini, Pro, Pro Max',
+        feature:['A15 Bionic Chip', 'Optical Zoom Additions'],
     }
 
 ]
-students.forEach((students) => console.log(students.graduated));
+iphone.forEach((iphone) => console.log(iphone.name));
+iphone.forEach((iphone) => console.log(iphone.variants));
+iphone.forEach((iphone) => console.log(iphone.release_date));
+iphone.forEach((iphone) => console.log(iphone.feature));
