@@ -46,7 +46,7 @@ const students = [
 //()=> arrow function
 //arrow functions auto return, this key word points globals
 //let nums= [1, 2, 3, 4, 5];
-students.forEach((students) => console.log(students.firstName));
+students.forEach((students) => console.log(students.siblings));
 /*
 nums.forEach(function (e1){
     console.log(e1);

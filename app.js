@@ -21,10 +21,11 @@ const iphone = [
         release_date:'September 22, 2023',
         variants:'Mini, Pro, Pro Max',
         feature:['A15 Bionic Chip', 'Optical Zoom Additions'],
+        
     }
 
 ]
 iphone.forEach((iphone) => console.log(iphone.name));
 iphone.forEach((iphone) => console.log(iphone.variants));
 iphone.forEach((iphone) => console.log(iphone.release_date));
-iphone.forEach((iphone) => console.log(iphone.feature));
+iphone.forEach((iphone) => console.log(iphone.feature(length)));
