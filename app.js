@@ -25,7 +25,11 @@ const iphone = [
     }
 
 ]
-iphone.forEach((iphone) => console.log(iphone.name));
-iphone.forEach((iphone) => console.log(iphone.variants));
-iphone.forEach((iphone) => console.log(iphone.release_date));
-iphone.forEach((iphone) => console.log(iphone.feature(length)));
+iphone.forEach((iphone) => {
+    console.log(iphone.name);
+    console.log(iphone.variants);
+    console.log(iphone.release_date);
+    iphone.feature.forEach((feature) => {
+        console.log(feature);
+    });
+});
