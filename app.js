@@ -12,9 +12,7 @@ const iphone = [
         release_date:'September 16, 2022',
         variants:'Pro, Pro Max, Plus',
         feature: ['A15 & A16 Bionic Chip', 'Dynamic Island', 'Optical Zoom Additions'],
-        type: function(){
-            return feature = iphone(feature);
-        }
+        
     },
     {
         name: 'iPhone 13',
