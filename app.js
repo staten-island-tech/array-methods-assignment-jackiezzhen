@@ -19,7 +19,8 @@ const iphone = [
         release_date:'September 22, 2023',
         variants:'Mini, Pro, Pro Max',
         feature:['A15 Bionic Chip', 'Optical Zoom Additions'],
-        
+        filter: function(){
+            return filtered = this.feature;}
     }
 
 ]
@@ -31,3 +32,7 @@ iphone.forEach((iphone) => {
         console.log(feature);
     });
 });
+
+const filtered= iphone.function(iphone.feature).filter
+iphone.forEach((iphone) => {
+forEach((filtered) => iphone.filter(filtered))})
