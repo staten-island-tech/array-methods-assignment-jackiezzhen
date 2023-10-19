@@ -33,6 +33,12 @@ iphone.forEach((iphone) => {
     });
 });
 
-const filtered= iphone.function(iphone.feature).filter
-iphone.forEach((iphone) => {
-forEach((filtered) => iphone.filter(filtered))})
+const filtered = iphone.filter((filtered) => filtered.variants.includes('Plus'));
+filtered.forEach((filtered) => {
+    console.log(filtered.name);
+    console.log(filtered.variants);
+    console.log(filtered.release_date);
+    filtered.feature.forEach((feature) => {
+        console.log(feature);
+    });
+});
