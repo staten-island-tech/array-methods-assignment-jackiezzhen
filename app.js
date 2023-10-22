@@ -5,7 +5,8 @@ const iphone = [
     variants: "Pro, Pro Max, Plus",
     feature: [
       "Titanium Frame (Pro/ProMax) Exclusive",
-      "A16 & A17 Pro Bionic Chip",
+      "A16 Bionic Chip",
+      "A17 Pro Bionic Chip",
       "USB-C",
     ],
   },
@@ -14,7 +15,8 @@ const iphone = [
     release_date: "September 16, 2022",
     variants: "Pro, Pro Max, Plus",
     feature: [
-      "A15 & A16 Bionic Chip",
+      "A15 Bionic Chip",
+      "A16 Bionic Chip",
       "Dynamic Island",
       "Optical Zoom Additions",
     ],
@@ -36,7 +38,7 @@ iphone.forEach((iphone) => {
   });
 });
 
-const filteredPhones = iphone.filter((phone) =>
-  phone.variants.includes("Plus")
+const filtered = iphone.filter((phone) =>
+  phone.feature.includes("A16 Bionic Chip")
 );
-console.log(filteredPhones)
+filtered.forEach((filtered) => {console.log(filtered)});
